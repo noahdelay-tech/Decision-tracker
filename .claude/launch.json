@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Backend (FastAPI)",
+      "runtimeExecutable": "/Users/noahdelay/Decision-tracker/backend/.venv/bin/uvicorn",
+      "runtimeArgs": ["app.main:app", "--reload", "--host", "0.0.0.0", "--port", "8000"],
+      "cwd": "/Users/noahdelay/Decision-tracker/backend",
+      "port": 8000
+    },
+    {
+      "name": "Frontend (Vite)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/noahdelay/Decision-tracker/frontend",
+      "port": 5173
+    }
+  ]
+}
